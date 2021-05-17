@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="zad2.SampleController">
+   <center>
+      <BorderPane prefHeight="486.0" prefWidth="463.0" BorderPane.alignment="CENTER">
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="TextRocznik" layoutX="151.0" layoutY="98.0" />
+                  <TextField fx:id="TextNazwisko" layoutX="151.0" layoutY="151.0" />
+                  <TextField fx:id="TextSrednia" layoutX="151.0" layoutY="197.0" />
+                  <Button fx:id="ButtonDodaj" layoutX="186.0" layoutY="243.0" mnemonicParsing="false" onAction="#ActionDodaj" prefHeight="48.0" prefWidth="79.0" text="Dodaj" />
+                  <Button fx:id="ButtonSortuj" layoutX="183.0" layoutY="300.0" mnemonicParsing="false" onAction="#ActionSortuj" prefHeight="54.0" prefWidth="85.0" text="Sortuj" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </center>
+</BorderPane>
